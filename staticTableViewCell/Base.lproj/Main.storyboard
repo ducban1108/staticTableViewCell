@@ -116,7 +116,7 @@
                         <sections>
                             <tableViewSection id="omh-z8-5t4">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="140" id="clW-1w-N25">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="140" id="clW-1w-N25">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="140"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="clW-1w-N25" id="Mka-0D-8eG">
@@ -125,19 +125,17 @@
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Zakatify Small Logo" translatesAutoresizingMaskIntoConstraints="NO" id="twk-fH-xNO">
                                                     <rect key="frame" x="160.5" y="36" width="54" height="54"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="54" id="KQw-af-YQX"/>
-                                                        <constraint firstAttribute="width" constant="54" id="yo9-QG-9KW"/>
-                                                    </constraints>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="twk-fH-xNO" firstAttribute="height" secondItem="Mka-0D-8eG" secondAttribute="height" multiplier="54/140" id="19t-Y1-MsG"/>
                                                 <constraint firstItem="twk-fH-xNO" firstAttribute="centerX" secondItem="Mka-0D-8eG" secondAttribute="centerX" id="PAo-q1-8wj"/>
+                                                <constraint firstItem="twk-fH-xNO" firstAttribute="width" secondItem="Mka-0D-8eG" secondAttribute="width" multiplier="54/375" id="TOd-8R-mgW"/>
                                                 <constraint firstItem="twk-fH-xNO" firstAttribute="top" secondItem="Mka-0D-8eG" secondAttribute="top" constant="36" id="odC-LJ-uHo"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="72" id="tzN-Q2-G37">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="72" id="tzN-Q2-G37">
                                         <rect key="frame" x="0.0" y="140" width="375" height="72"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tzN-Q2-G37" id="4hY-XU-EyV">
@@ -181,7 +179,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="66" id="vQ7-vD-rKk">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="66" id="vQ7-vD-rKk">
                                         <rect key="frame" x="0.0" y="212" width="375" height="66"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vQ7-vD-rKk" id="7fr-SG-H5M">
@@ -192,7 +190,7 @@
                                                     <rect key="frame" x="20" y="0.0" width="335" height="37"/>
                                                     <subviews>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="@Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ctm-Hr-q2P">
-                                                            <rect key="frame" x="0.0" y="0.0" width="83" height="17"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="319" height="17"/>
                                                             <nil key="textColor"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <textInputTraits key="textInputTraits"/>
@@ -205,6 +203,9 @@
                                                             </constraints>
                                                         </view>
                                                     </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="Ctm-Hr-q2P" secondAttribute="trailing" constant="16" id="Ycq-7S-rj2"/>
+                                                    </constraints>
                                                 </stackView>
                                             </subviews>
                                             <constraints>
@@ -216,7 +217,7 @@
                                             <constraint firstItem="Zfz-4u-K4v" firstAttribute="width" secondItem="vQ7-vD-rKk" secondAttribute="width" multiplier="335/375" id="JQR-9H-JOe"/>
                                         </constraints>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="66" id="Baj-yT-qpf">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="66" id="Baj-yT-qpf">
                                         <rect key="frame" x="0.0" y="278" width="375" height="66"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Baj-yT-qpf" id="tTN-R5-oyj">
@@ -227,7 +228,7 @@
                                                     <rect key="frame" x="20" y="0.0" width="335" height="37"/>
                                                     <subviews>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rY5-tW-Zjj">
-                                                            <rect key="frame" x="0.0" y="0.0" width="38.5" height="17"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="319" height="17"/>
                                                             <nil key="textColor"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <textInputTraits key="textInputTraits"/>
@@ -240,6 +241,9 @@
                                                             </constraints>
                                                         </view>
                                                     </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="rY5-tW-Zjj" secondAttribute="trailing" constant="16" id="h5S-bo-7IX"/>
+                                                    </constraints>
                                                 </stackView>
                                             </subviews>
                                             <constraints>
@@ -251,7 +255,7 @@
                                             <constraint firstItem="jRw-Ep-5Zc" firstAttribute="width" secondItem="Baj-yT-qpf" secondAttribute="width" multiplier="335/375" id="HKy-Up-u7N"/>
                                         </constraints>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="66" id="abA-w7-AS8">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="66" id="abA-w7-AS8">
                                         <rect key="frame" x="0.0" y="344" width="375" height="66"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="abA-w7-AS8" id="ZPh-cZ-o05">
@@ -262,7 +266,7 @@
                                                     <rect key="frame" x="20" y="0.0" width="335" height="37"/>
                                                     <subviews>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lhJ-g8-kbG">
-                                                            <rect key="frame" x="0.0" y="0.0" width="66.5" height="17"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="319" height="17"/>
                                                             <nil key="textColor"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <textInputTraits key="textInputTraits"/>
@@ -275,6 +279,9 @@
                                                             </constraints>
                                                         </view>
                                                     </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="lhJ-g8-kbG" secondAttribute="trailing" constant="16" id="vXZ-Q1-RcM"/>
+                                                    </constraints>
                                                 </stackView>
                                             </subviews>
                                             <constraints>
@@ -286,7 +293,7 @@
                                             <constraint firstItem="eiR-Ss-DYB" firstAttribute="width" secondItem="abA-w7-AS8" secondAttribute="width" multiplier="335/375" id="YlQ-Ha-Vud"/>
                                         </constraints>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="128" id="bjS-yW-lh2">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="128" id="bjS-yW-lh2">
                                         <rect key="frame" x="0.0" y="410" width="375" height="128"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bjS-yW-lh2" id="jtv-Gc-Nva">
@@ -297,7 +304,7 @@
                                                     <rect key="frame" x="20" y="0.0" width="335" height="37"/>
                                                     <subviews>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Repeat password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fm0-dZ-5xB">
-                                                            <rect key="frame" x="0.0" y="0.0" width="115.5" height="17"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="319" height="17"/>
                                                             <nil key="textColor"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <textInputTraits key="textInputTraits"/>
@@ -310,6 +317,9 @@
                                                             </constraints>
                                                         </view>
                                                     </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="Fm0-dZ-5xB" secondAttribute="trailing" constant="16" id="gPP-gn-ua5"/>
+                                                    </constraints>
                                                 </stackView>
                                             </subviews>
                                             <constraints>
@@ -321,7 +331,7 @@
                                             <constraint firstItem="mzG-Rf-e6r" firstAttribute="width" secondItem="bjS-yW-lh2" secondAttribute="width" multiplier="335/375" id="ycB-z5-ygv"/>
                                         </constraints>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="86" id="u3e-6I-iru">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="86" id="u3e-6I-iru">
                                         <rect key="frame" x="0.0" y="538" width="375" height="86"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="u3e-6I-iru" id="gyG-w5-5mF">
@@ -348,7 +358,7 @@
                                             <constraint firstItem="OZB-xZ-bey" firstAttribute="width" secondItem="u3e-6I-iru" secondAttribute="width" multiplier="335/375" id="ZL2-vF-Rto"/>
                                         </constraints>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="86" id="cxV-XN-9kL">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="86" id="cxV-XN-9kL">
                                         <rect key="frame" x="0.0" y="624" width="375" height="86"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cxV-XN-9kL" id="1TU-x2-572">
